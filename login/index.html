@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <form class="form" id="login">
+            <h1 class="form_title">Login</h1>
+            <div class="form_message form_message_success form_message_error"></div>
+            <div class="form_input_group">
+                <input type="text" class="form_input" id="email_input" autofocus placeholder="E-mail">
+                <div class="form_input_error_message"></div>
+            </div>
+            <div class="form_input_group">
+                <input type="password" class="form_input" id="password_input"  autofocus placeholder="Senha">
+                <div class="form_input_error_message"></div>
+            </div>
+            <button class="form_button" type="submit">Continuar</button>
+            <p class="form_text">
+                <a href="./" id="link_create_account" class="form_link">Criar conta</a>
+            </p>
+        </form>
+        <form class="form form_hidden" id="create_account">
+            <h1 class="form_title">Criar Conta</h1>
+            <div class="form_message form_message_success form_message_error"></div>
+            <div class="form_input_group">
+                <input type="text" class="form_input" id="create_name_input" autofocus placeholder="Nome">
+                <div class="form_input_error_message"></div>
+            </div>
+            <div class="form_input_group">
+                <input type="text" class="form_input" id="create_surname_input" autofocus placeholder="Sobrenome">
+                <div class="form_input_error_message"></div>
+            </div>
+            <div class="form_input_group">
+                <input type="text" class="form_input" id="create_email_input" autofocus placeholder="E-mail">
+                <div class="form_input_error_message"></div>
+            </div>
+            <div class="form_input_group">
+                <input type="password" class="form_input" id="create_password_input" autofocus placeholder="Senha">
+                <div class="form_input_error_message"></div>
+            </div>
+            <div class="form_input_group">
+                <input type="password" class="form_input" id="confirm_password_input" autofocus placeholder="Confirmar Senha">
+                <div class="form_input_error_message"></div>
+            </div>
+            <button class="form_button" type="submit">Continuar</button>
+            <p class="form_text">
+                <a href="./" id="link_login" class="form_link">Já tem uma conta? Faça o login!</a>
+            </p>
+        </form>
+
+    </div>
+    
+    
+</body>
+</html>
